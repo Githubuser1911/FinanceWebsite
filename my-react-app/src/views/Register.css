@@ -1,0 +1,21 @@
+/* Register.css */
+
+/* Prevent scrolling */
+body, html {
+    height: 100%; /* Ensure the body and html take up the full height */
+    margin: 0; /* Remove default margin */
+    overflow: hidden; /* Disable scrolling */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Take up full viewport height */
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px; /* Limit the card width */
+  }
+  

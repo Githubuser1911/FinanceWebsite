@@ -1,0 +1,21 @@
+{
+  "unknown": {
+    "versionSfCore": null,
+    "versionFramework": "4.4.16",
+    "isWithinCompose": false,
+    "composeOrgName": null,
+    "composeServiceName": null,
+    "command": [],
+    "options": {},
+    "error": {
+      "message": "Failed to download and install template from https://github.com/serverless/examples/tree/v4/aws-node-express-dynamodb-api due to A folder named \"C:\\Users\\danek\\OneDrive\\Desktop\\FinanceWebsite\\node-mysql\\FinanceWebsite\" already exists.",
+      "stack": "Error: Failed to download and install template from https://github.com/serverless/examples/tree/v4/aws-node-express-dynamodb-api due to A folder named \"C:\\Users\\danek\\OneDrive\\Desktop\\FinanceWebsite\\node-mysql\\FinanceWebsite\" already exists.\n    at routeNew (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:951:3572)\n    at async commandOnboarding (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:951:2302)\n    at async catchAllHandler (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:976:19795)\n    at async runCommand (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:1010:10875)\n    at async route (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:1010:13424)\n    at async Object.run2 [as run] (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:1010:15173)\n    at async run3 (file:///C:/Users/danek/.serverless/releases/4.4.16/package/dist/sf-core.js:1010:16435)"
+    },
+    "machineId": "884f2d234b21aec6915872c8d873c0a2",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}

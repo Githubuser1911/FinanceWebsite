@@ -69,23 +69,100 @@ button:focus-visible {
 .header{
   text-align:left;
   align-items:center;
-  padding-left: 30px;
+  padding-left: 60px;
   display:flex;
   font-family:monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner {
+  background-color: #a1a19e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed; /* Sticks to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the banner stays on top */
 }
 
 .nav{
 
   display:flex;
-  align-items:center;
-  text-align: right;
   justify-content: space-around;
-  height: 3vh;
+  height: 2vh;
   list-style:none;
-  gap:2rem;
+  gap:3rem;
   text-decoration: none;
+  text-align: right;
+  float:right;
+  
+}
 
+.nav .link {
 
+  float: right;
+  display:flex;
+  text-decoration:none;
+}
+
+.welcome-message{
+  font-size:1.5em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 252, 252);
+  padding: 0;
+  border-radius:5px;
+  padding-bottom: 200px;
+  margin:0;
+  text-align: center;
+}
+
+.login-prompt{
+  font-size:1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(250, 248, 248);
+  text-align: center;
+  padding: 0;
+  border-radius:5px;
+  padding-bottom: 400px;
+  margin:0;
+}
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.title .title{
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 300px;
+}
+
+.title .under{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255); /* Change to any color you like */
+}
+
+.picture{
+  display:flex;
+  width: 45px;
+  height: 50px;
+  justify-content: center;
+  float: left;
+  padding-top:0px;
+  position:relative;
+  z-index: 1001;
+  mix-blend-mode: multiply;
 }
 
 @media (prefers-color-scheme: light) {
@@ -97,6 +174,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
   }
 }
