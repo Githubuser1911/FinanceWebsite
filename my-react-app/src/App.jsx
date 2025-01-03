@@ -23,6 +23,7 @@ import lbo from './assets/lbo.jpg';
 import option from './assets/option.jpg';
 import trading from './assets/trading.png';
 import BlackScholesForm from './options.jsx';
+import MortgageCalc from './MortgageCalc.jsx';
 
 
 function App() {
@@ -183,6 +184,10 @@ function App() {
                 <Route 
                     path="/options-pricer" 
                     element={<BlackScholesForm />} 
+                />
+                <Route 
+                path="/mortgage-calculator" 
+                element={<MortgageCalc />} 
                 />
             </Routes>
             <Footer />
