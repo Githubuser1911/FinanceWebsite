@@ -22,6 +22,7 @@ import dcf from './assets/dcf.png';
 import lbo from './assets/lbo.jpg';
 import option from './assets/option.jpg';
 import trading from './assets/trading.png';
+import BlackScholesForm from './options.jsx';
 
 
 function App() {
@@ -177,6 +178,11 @@ function App() {
                 <Route 
                     path="/dividend-calculator" 
                     element={<DividendCalc />} 
+                />
+                {/* Options Pricer Route */}
+                <Route 
+                    path="/options-pricer" 
+                    element={<BlackScholesForm />} 
                 />
             </Routes>
             <Footer />
