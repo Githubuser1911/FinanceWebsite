@@ -24,6 +24,7 @@ import option from './assets/option.jpg';
 import trading from './assets/trading.png';
 import BlackScholesForm from './options.jsx';
 import MortgageCalc from './MortgageCalc.jsx';
+import BudgetingTool from './budgeting.jsx';
 
 
 function App() {
@@ -185,10 +186,16 @@ function App() {
                     path="/options-pricer" 
                     element={<BlackScholesForm />} 
                 />
+                {/* Mortgage Calculator Route */}
                 <Route 
                 path="/mortgage-calculator" 
                 element={<MortgageCalc />} 
                 />
+                {/* Budgeting Calculator Route */}
+                <Route 
+                path="/budgeting-tool" 
+                element={<BudgetingTool />} 
+                />                
             </Routes>
             <Footer />
         </BrowserRouter>
