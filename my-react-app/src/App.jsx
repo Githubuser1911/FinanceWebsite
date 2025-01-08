@@ -25,6 +25,7 @@ import trading from './assets/trading.png';
 import BlackScholesForm from './options.jsx';
 import MortgageCalc from './MortgageCalc.jsx';
 import BudgetingTool from './budgeting.jsx';
+import DCFCalculator from './DCF.jsx';
 
 
 function App() {
@@ -195,7 +196,12 @@ function App() {
                 <Route 
                 path="/budgeting-tool" 
                 element={<BudgetingTool />} 
-                />                
+                />               
+                {/* DCF Route */}
+                <Route 
+                path="/DCF" 
+                element={<DCFCalculator />} 
+                />                         
             </Routes>
             <Footer />
         </BrowserRouter>
